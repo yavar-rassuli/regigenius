@@ -1,0 +1,299 @@
+body{
+    background: #080000;
+    font-size: 100%;
+    margin: 0em;
+    padding: 0em;
+}
+
+.logo{
+    float: left;
+    margin-top: 10px;
+    width: 130px;
+    height: 90px;
+}
+
+
+h1{
+    font-size: 2.5em;
+    line-height: 2.8em;
+    border-bottom: 1px solid #757272;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #E2DBDB;
+    margin:0em;   
+}
+
+h2{
+    font-size: 1.563em;
+    line-height: 1.8em;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #faf8f8;
+    margin:0em; 
+    padding: 1.25em;  
+    text-align: left;
+}
+
+h3{
+    font-size: 1em;
+    line-height: 1.8em;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #f8f7f6;
+    margin:0em; 
+    padding: 1.25;  
+    text-align: left;
+}
+
+p{
+    line-height: 1.25em;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #fdfcfc;
+    margin:0em; 
+    padding: 1.25;  
+    text-align: justify;
+
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: square;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #aaa8a8;
+    line-height: 1.25em ;
+    margin:0em; 
+    padding: 1.25;  
+    margin: 0.313em 0em 0.313em 0em;
+}
+
+img{
+    width: 90%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10%;
+
+}
+
+a{
+    text-decoration: none;
+
+}
+/* on Top Bar */
+#menubar{
+    display: none;
+    background: #030303;
+    float: right;
+    
+}
+
+#menubar img{
+    width: 50px;
+    height: 40px;
+    
+}
+
+#menubar ul{
+    display: block;
+    width: 2em;
+    padding: 0.9em;
+}
+
+#menubar ul li{
+    display: inline;
+}
+
+
+/* Header */
+header{
+    display: block;
+    background:#0a0909 ;
+    text-align: center;
+}
+
+/* Navigation */
+nav{
+    display: block;
+    height: 2.5em;
+    background:#ffffff ;
+    text-align: center;  
+    
+}
+
+nav ul{
+    display: block; 
+}
+
+nav ul li{
+    display: inline; 
+    margin: 0em 0.188em 0em 0.188em;
+}
+
+nav ul li a{
+    color: #080404;
+    font-size: 1.125em;
+    line-height: 2.5em;
+    padding: 0.563em 0.938em 0.375em 0.983em;
+    
+}
+    
+nav ul li a:hover{
+    background: #fcfafa;
+    border: 0.110em solid #0a0604;
+    border-radius: 12px;
+}
+
+nav ul li a:active{
+    background: #6b5555;
+}
+
+/* Content Area */
+#main{
+    display: block;
+    width:96%;
+    max-width: 988px;
+    margin: 1.25em auto;
+    padding: 0em;
+}
+
+#main article{
+    display: inline-block;
+    width: 65.3%;
+    background: #070707;
+    vertical-align: top;
+    margin-right: 0em;
+    padding: 0em;
+    text-align: center;
+}
+
+hr {
+    
+    color:gray;
+    background-color:gray ;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    height: 2px;
+ }
+
+
+
+#main aside{
+    display: inline-block;
+    width: 30.6%;
+    margin-left: 3%;
+    padding: 0em;
+    vertical-align: top;
+}
+
+#main aside section{
+    margin-bottom: 1.563em;
+    background: #070707;
+    border-bottom: 0.188em solid #75726f;
+    margin-bottom: 18em;
+
+}
+
+
+
+#main aside h2{
+    padding: 1em 1.8em 1em 1.8em;
+}
+
+#main article h2{
+    padding: 1em 1.8em 1em 1.8em;
+}
+
+#main article section ul{
+    padding: 0em 1.875em 1.25em 2.5em;
+}
+
+/* Footer */
+footer{
+    display: block;
+    background: #928e8e;
+    text-align: center;
+}
+
+footer ul{
+    display: block;
+    width: 100%;
+    max-width: 980px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+footer ul{
+    display:inline;
+    font-size: 1em;
+    line-height: 2em;
+    color: #0c0a0a;
+    padding: 0px 1px 0px 0px;
+}
+
+footer ul li a{
+    color: #080606; 
+    font-weight:bold;
+}
+footer ul li a:hover{
+    background: #928e8e;
+    border: 0.110em solid #0a0604;
+    border-radius: 10px;
+}
+footer ul p{
+    color: #080606; 
+    display:inline;
+    text-align: center;
+}
+
+/* Mobile style */
+@media (max-width:600px){
+     body{
+         font-size: 90%;
+     }
+}
+
+@media (max-width:600px){
+    #main aside, #main article{
+        width: 100%;
+        display: block;
+        margin: 0.625em 0em 0.625em 0em;
+    }
+}
+@media (min-width:550px){
+    nav{
+        display: block !important;
+    }
+   
+        
+}
+
+@media (max-width:550px){
+    body{
+        font-size: 86%;
+    }
+    h1{
+        font-size: 1.5em;
+        line-height: 1.8em;
+    }
+
+    #menubar{
+        display: block;
+    }
+   
+    nav{
+        display: none;
+        height: auto;
+    }
+    nav ul li{
+        display: block; 
+        margin: 0.3em 0em 0.3em 0em;
+    }
+
+}
+
